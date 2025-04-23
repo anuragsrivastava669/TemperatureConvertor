@@ -8,7 +8,7 @@ const calculateTemp = () => {
         return fahrenheit;
     }
     const fehToCel = (feh) => {
-        let fahrenheit = Math.round((feh - 32) * 5/9);
+        let celsius = Math.round((feh - 32) * 5/9);
         return celsius;
     }
     let result;
